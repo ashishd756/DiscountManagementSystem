@@ -44,7 +44,11 @@ Eclipse IDE is used for creating this project(It is not mandatory)
 
 - Run com.adshopping.application.MainShoppingApplication.java
 
-- You will be promted to enter the absolute path of the CSV file which contains the inventory data. Sample CSV file data given below:
+
+- You will be promted to enter the absolute path of the CSV file which contains the inventory data. 
+For example: C:\Users\AD-Home\DiscountManagementSystem\resources\SampleInventory.csv
+
+Sample CSV file data given below:
  
 - Sample CSV Content. (Included in resources folder of thhe project)
 

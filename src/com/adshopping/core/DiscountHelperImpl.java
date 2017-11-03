@@ -53,6 +53,8 @@ public class DiscountHelperImpl implements IDiscountHelper {
 				item.setDiscountApplied(true);
 				item.setDiscountPercentage(discount.getAmount());
 				totalDiscountedAmount = totalDiscountedAmount.add(discountedTotalAmount);
+			} else {
+				totalDiscountedAmount = totalDiscountedAmount.add(item.getProductPrice());
 			}
 		}
 		shoppingCart.setTotalDiscountedProductPrice(totalDiscountedAmount);
