@@ -5,7 +5,9 @@ This is a very basic Shopping Cart system with emphasis on the Discounting flow.
 ## Assumptions
 
 ```
-#### It is assumed that there is some existing system which is there to load Inventory from csv and Product Categories. 
+
+- It is assumed that there is some existing system which is there to load Inventory from csv and Product Categories. 
+
 - Currently I have hard coded the product categories and its parent categories in the code. Code is provided in ShoppingUtils.java. This ShoppingUtils.java class represents the existing system.
 
 - Brand and Category discounts are loaded from properties file provided in the resources folder in the project. For example: BrandDiscountPercentage.properties and CategoryDiscountPercentage.properties
@@ -40,12 +42,12 @@ Eclipse IDE is used for creating this project(It is not mandatory)
 
 ```
 
-### Run com.adshopping.application.MainShoppingApplication.java
+- Run com.adshopping.application.MainShoppingApplication.java
 
-### You will be promted to enter the absolute path of the CSV file which contains the inventory data. Sample CSV file data given below:
+- You will be promted to enter the absolute path of the CSV file which contains the inventory data. Sample CSV file data given below:
  
+- Sample CSV Content. (Included in resources folder of thhe project)
 
-### Sample CSV Content. (Included in resources folder of thhe project)
 Id,Brand,Category,Price
 1, Arrow,Shirts,800
 2, Vero Moda,Dresses,1400
@@ -53,9 +55,9 @@ Id,Brand,Category,Price
 4, Wrangler,Jeans,2200
 5, UCB,Shirts,1500
 
-### You will be promted enter the comma separated the product id which you want to add in shopping cart. For example enter: 1,2,3,4
+- You will be promted enter the comma separated the product id which you want to add in shopping cart. For example enter: 1,2,3,4
 
-### Output will be the total original billable amount and total discounted billable amount
+- Output will be the total original billable amount and total discounted billable amount
 
 
 ```
